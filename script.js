@@ -8,6 +8,7 @@ const freq = []
 		 return char
 	 }
  }
+	return null
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
